@@ -1,0 +1,43 @@
+Wed Jan  4 22:42:02 CST 2017
+????
+DceOpenInterest:20170104
+Thu Jan  5 20:00:01 CST 2017
+????
+DceOpenInterest:20170105
+Fri Jan  6 20:00:01 CST 2017
+????
+java.io.IOException: Premature EOF
+	at sun.net.www.http.ChunkedInputStream.fastRead(ChunkedInputStream.java:257)
+	at sun.net.www.http.ChunkedInputStream.read(ChunkedInputStream.java:689)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3375)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at com.cool.utils.Utils.openStreamGetTextFromStream(Utils.java:101)
+	at com.cool.utils.Utils.openStreamGetRequest(Utils.java:294)
+	at com.cool.openinterest.DceOpenInterest.getAllContnt(DceOpenInterest.java:530)
+	at com.cool.openinterest.DceOpenInterest.getRequest(DceOpenInterest.java:380)
+	at com.cool.openinterest.DceOpenInterest.DceExchange(DceOpenInterest.java:325)
+	at com.cool.openinterest.DceOpenInterest.access$4(DceOpenInterest.java:309)
+	at com.cool.openinterest.DceOpenInterest$1.run(DceOpenInterest.java:603)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+java.io.IOException: Premature EOF
+	at sun.net.www.http.ChunkedInputStream.fastRead(ChunkedInputStream.java:257)
+	at sun.net.www.http.ChunkedInputStream.read(ChunkedInputStream.java:689)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3375)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at com.cool.utils.Utils.openStreamGetTextFromStream(Utils.java:101)
+	at com.cool.utils.Utils.openStreamGetRequest(Utils.java:294)
+	at com.cool.openinterest.DceOpenInterest.getAllContnt(DceOpenInterest.java:530)
+	at com.cool.openinterest.DceOpenInterest.getRequest(DceOpenInterest.java:380)
+	at com.cool.openinterest.DceOpenInterest.DceExchange(DceOpenInterest.java:325)
+	at com.cool.openinterest.DceOpenInterest.access$4(DceOpenInterest.java:309)
+	at com.cool.openinterest.DceOpenInterest$1.run(DceOpenInterest.java:603)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+DceOpenInterest:20170106

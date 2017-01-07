@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "此脚本可对当前数据表某日同步到总表中。
+请输入日期(yyyy-mm-dd):"
+read tradingday
+sed s/"curdate()"/"'$tradingday'"/g daily.sql > update.sql;
+mysql -uroot -p123456 -Dexchangedata < update.sql;
+rm -rf update.sql
