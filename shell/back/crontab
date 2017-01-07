@@ -9,4 +9,4 @@
 10 20 * * 1-5 kill -9 `ps aux | grep jar | awk '{print $2}'`
 10 20 * * 1-5 sh /dailydata/shell/senddate
 30 20 * * 1-5 sh /dailydata/shell/update.sh
-30 20 * * 1-5 sh /dailydata/update/dailyupdate.sh
+31 20 * * 1-5 sh /dailydata/update/dailyupdate.sh
